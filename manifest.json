@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Aura: Synesthesia Trainer",
+	"description": "This is the Aura Synesthesia Trainer. It's based on one exercise (the homework component) from this paper that claims to have given adults synesthetic experiences. https://www.nature.com/articles/srep07089",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["scripts.js"]
+        }
+    ],
+	"browser_action": {
+ 		"default_icon": "images/aura-icon.png",
+ 		"default_title": "Aura Synesthesia Trainer"
+     },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": { 
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+       "128": "images/icon-128.png" }
+}
