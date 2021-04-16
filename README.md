@@ -19,3 +19,11 @@ Some useful things to build out would be:
 - A popout configuration panel for people to configure when it should load, and what colors it should use.
 - A way to configure the colors instead of hardcoding them.
 - Better parsing of characters– right now we're just iterating through every character in <p> tags.
+
+## Installation
+1. Click the big green code button on Github
+2. Click download Zip and unzip the folder.
+3. Go to chrome://extensions/
+4. Click "Load Unpacked"
+5. Point it at the folder and hit Select.
+6. Whenever you go to a page, hit the extension icon and it'll convert the page to colored text.
